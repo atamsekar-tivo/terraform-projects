@@ -7,9 +7,9 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('Get User') {
       steps {
-        sh '''#! /bin/bash
+        sh '''!# /bin/bash
 
 echo ${USER}'''
       }
