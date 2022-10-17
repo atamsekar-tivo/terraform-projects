@@ -11,7 +11,11 @@ pipeline {
       steps {
         sh '''#! /bin/bash
 
-echo ${USER}'''
+
+pwd
+echo "Print User"
+echo ${USER}
+'''
       }
     }
 
