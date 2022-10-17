@@ -19,6 +19,12 @@ echo ${USER}
       }
     }
 
+    stage('End') {
+      steps {
+        echo 'END'
+      }
+    }
+
   }
   environment {
     Name = 'Test'
